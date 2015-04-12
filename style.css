@@ -1,63 +1,72 @@
-* {
-	margin: 0;
-	padding: 0;
+#cabecalho{
+	background: red;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+#cabecalho h1{
+	font-family: 'Satisfy', cursive;
 }
 
-body {
-	font-size: 62.5%;
-	font-family: Helvetica, sans-serif;
-}
-	
-#page-wrap {
-	width: 500px;
-	margin: 0 auto;
+#cabecalho  h2{
+	font-family: 'Indie Flower', cursive;
+	padding-left: 50px;
 }
 
 ul#menu {
 	list-style: none;
-	}
-	ul#menu li {
-		display: inline;
-	}
-	ul#menu li a  {
-		text-indent: -9999px;
-		display: block;
-		height: 98px;
-		float: left;
-		margin-left: 80px;
-		}
-		ul#menu li a.Inicio{
-			background: url(img/menu00.png) no-repeat bottom center;
-			width: 214px;
-		}
-		ul#menu li a.Projeto {
-			background: url(img/menu01.png) no-repeat bottom center;
-			width: 254px;
-		}
-		ul#menu li a.Curriculum {
-			background: url(img/menu02.png) no-repeat bottom center;
-			width: 254px;
-		}
-		ul#menu li a.Contato {
-			background: url(img/menu03.png) no-repeat bottom center;
-			width: 185px;
-		}
+}
+
+ul#menu li {
+	display: inline;
+}
+
+ul#menu li a  {
+	text-indent: -9999px;
+	display: block;
+	height: 98px;
+	float: left;
+	margin-left: 80px;
+}
+
+ul#menu li a.Inicio{
+	background: url(img/menu00.png) no-repeat bottom center;
+	width: 214px;
+}
+
+ul#menu li a.Projeto {
+	background: url(img/menu01.png) no-repeat bottom center;
+	width: 254px;
+}
+
+ul#menu li a.Curriculum {
+	background: url(img/menu02.png) no-repeat bottom center;
+	width: 254px;
+}
+
+ul#menu li a.Contato {
+	background: url(img/menu03.png) no-repeat bottom center;
+	width: 185px;
+}
 			
-		ul#menu li a.Inicio:hover{
-			background: url(img/menu00m.png) no-repeat bottom center;
-			width: 214px;
-		}
-		ul#menu li a.Projeto:hover{
-			background: url(img/menu01m.png) no-repeat bottom center;
-			width: 254px;
-		}
-		ul#menu li a.Curriculum:hover{
-			background: url(img/menu02m.png) no-repeat bottom center;
-			width: 254px;
-		}
-		ul#menu li a.Contato:hover{
-			background: url(img/menu03m.png) no-repeat bottom center;
-			width: 185px;
-		}
+ul#menu li a.Inicio:hover{
+	background: url(img/menu00m.png) no-repeat bottom center;
+	width: 214px;
+}
+
+ul#menu li a.Projeto:hover{
+	background: url(img/menu01m.png) no-repeat bottom center;
+	width: 254px;
+}
+
+ul#menu li a.Curriculum:hover{
+	background: url(img/menu02m.png) no-repeat bottom center;
+	width: 254px;
+}
+
+ul#menu li a.Contato:hover{
+	background: url(img/menu03m.png) no-repeat bottom center;
+	width: 185px;
+}
 		
 		
