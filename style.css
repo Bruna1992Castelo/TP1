@@ -1,3 +1,24 @@
+#home{
+	background: url('img/fundo.jpg') repeat;
+    background-size: cover;    
+}
+
+#transbox {
+    margin: 150px;
+    background-color: #ffffff;
+	box-sizing:border-box;
+	padding-top: 20px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 30px;
+	border: 1px solid #ff56fb;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+	text-align: center;
+}
+
+
+
 #cabecalho{
 	background: red;
 	padding-top: 10px;
@@ -13,15 +34,15 @@
 	padding-left: 50px;
 }
 
-ul#menu {
+#menu ul {
 	list-style: none;
 }
 
-ul#menu li {
+#menu ul li {
 	display: inline;
 }
 
-ul#menu li a  {
+#menu ul li a  {
 	text-indent: -9999px;
 	display: block;
 	height: 98px;
@@ -29,42 +50,42 @@ ul#menu li a  {
 	margin-left: 80px;
 }
 
-ul#menu li a.Inicio{
+#menu ul li a.Inicio{
 	background: url(img/menu00.png) no-repeat bottom center;
 	width: 214px;
 }
 
-ul#menu li a.Projeto {
+#menu ul li a.Projeto {
 	background: url(img/menu01.png) no-repeat bottom center;
 	width: 254px;
 }
 
-ul#menu li a.Curriculum {
+#menu ul li a.Curriculum {
 	background: url(img/menu02.png) no-repeat bottom center;
 	width: 254px;
 }
 
-ul#menu li a.Contato {
+#menu ul li a.Contato {
 	background: url(img/menu03.png) no-repeat bottom center;
 	width: 185px;
 }
 			
-ul#menu li a.Inicio:hover{
+#menu ul li a.Inicio:hover{
 	background: url(img/menu00m.png) no-repeat bottom center;
 	width: 214px;
 }
 
-ul#menu li a.Projeto:hover{
+#menu ul li a.Projeto:hover{
 	background: url(img/menu01m.png) no-repeat bottom center;
 	width: 254px;
 }
 
-ul#menu li a.Curriculum:hover{
+#menu ul li a.Curriculum:hover{
 	background: url(img/menu02m.png) no-repeat bottom center;
 	width: 254px;
 }
 
-ul#menu li a.Contato:hover{
+#menu ul li a.Contato:hover{
 	background: url(img/menu03m.png) no-repeat bottom center;
 	width: 185px;
 }

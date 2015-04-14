@@ -2,9 +2,16 @@
 <head>
 	<title>Bruna Castelo</title>
 	<link rel="stylesheet" href="style.css" />
+	<script languagem = "JavaScript">
+		function DataHora(){
+		var data = new Date();
+		tempo.innerHTML = data;
+		setTimeout("DataHora", 1000);
+		}
+	</script>
 </head>
 
-<body id="home">
+<body id="home" >
 	
 	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
@@ -18,13 +25,22 @@
 		</p>
 	</div>
 	
-	<ul id="menu">
-		<li><a class="Inicio" href="Index.html">Inicial</a></li>
-		<li><a class="Projeto" href="Projeto.html">Projeto</a></li>
-		<li><a class="Curriculum" href="Curriculum.html">Curriculum</a></li>
-		<li><a class="Contato" href="Contato.html">Contato</a></li>
-	</ul>
+	<div id="menu">
+		<ul>
+			<li><a class="Inicio" href="Index.html">Inicial</a></li>
+			<li><a class="Projeto" href="Projeto.html">Projeto</a></li>
+			<li><a class="Curriculum" href="Curriculum.html">Curriculum</a></li>
+			<li><a class="Contato" href="Contato.html">Contato</a></li>
+		</ul>
+	</div>
 	
+	<div id="transbox">
+		onLoad="DataHora()
+		<span id=tempo>"<p>BOM DIA/BOA TARDE/BOA NOITE você está acessando ao site pessoal de Bruna Castelo Branco Santos. 
+		   Sou estudante de Engenharia da Computação na Instituição de ensino Centro Educacional Federal de Minas Gerais(CEFET-MG). 
+		   Estou cursando o 6º período e esse site é o primeiro trabalho da disciplina Programação para WEB, disciplina optativa da minha grade curricular</p>
+	</div>
+
 </body>
 
 </html>
