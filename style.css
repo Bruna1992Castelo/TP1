@@ -1,93 +1,120 @@
-#home{
-	background: url('img/fundo.jpg') repeat;
-    background-size: cover;    
+@import "fonts/style.css";
+@import url(http://fonts.googleapis.com/css?family=Anton);
+body {
+   margin:0;
+}	
+
+
+a { color: #333; }
+
+.asterisco { transition: all 0.5s ease; }
+
+a:hover .asterisco { transform: rotate(360deg); }
+
+.texto { transition: all 0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550); }
+
+.texto:houver { transform: scale(1.2); }
+
+
+
+#recipiente{
+	width: 1150px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #D3D3D3;
+	position: relative;
+	height: 100%;
 }
-
-#transbox {
-    margin: 150px;
-    background-color: #ffffff;
-	box-sizing:border-box;
-	padding-top: 20px;
-	padding-left: 35px;
-	padding-right: 35px;
-	padding-bottom: 30px;
-	border: 1px solid #ff56fb;
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-	text-align: center;
-}
-
-
 
 #cabecalho{
-	background: red;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	background-image:linear-gradient(to bottom, #FFFAF0, #FA8072);
+	height: 250px;
 	text-align: center;
 }
-#cabecalho h1{
-	font-family: 'Satisfy', cursive;
+
+#cabecalho img{
+	padding-top: 80px;
 }
 
-#cabecalho  h2{
-	font-family: 'Indie Flower', cursive;
-	padding-left: 50px;
+#foto{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 250px;
+	width: 450px;
 }
 
-#menu ul {
-	list-style: none;
-}
-
-#menu ul li {
-	display: inline;
-}
-
-#menu ul li a  {
-	text-indent: -9999px;
-	display: block;
-	height: 98px;
-	float: left;
-	margin-left: 80px;
-}
-
-#menu ul li a.Inicio{
-	background: url(img/menu00.png) no-repeat bottom center;
-	width: 214px;
-}
-
-#menu ul li a.Projeto {
-	background: url(img/menu01.png) no-repeat bottom center;
-	width: 254px;
-}
-
-#menu ul li a.Curriculum {
-	background: url(img/menu02.png) no-repeat bottom center;
-	width: 254px;
-}
-
-#menu ul li a.Contato {
-	background: url(img/menu03.png) no-repeat bottom center;
-	width: 185px;
-}
-			
-#menu ul li a.Inicio:hover{
-	background: url(img/menu00m.png) no-repeat bottom center;
-	width: 214px;
-}
-
-#menu ul li a.Projeto:hover{
-	background: url(img/menu01m.png) no-repeat bottom center;
-	width: 254px;
-}
-
-#menu ul li a.Curriculum:hover{
-	background: url(img/menu02m.png) no-repeat bottom center;
-	width: 254px;
-}
-
-#menu ul li a.Contato:hover{
-	background: url(img/menu03m.png) no-repeat bottom center;
-	width: 185px;
+#foto img{
+	padding-top: 30px;
+	padding-left: 115px;
 }
 		
-		
+#conteudo{
+	position: relative;
+}
+
+#conteudo p{
+	padding-top: 50px;
+	padding-left: 170px;
+	width: 800px;
+	font-size: 18px;
+}
+
+#menu{
+	padding-left: 220px;
+	height: 60px;
+	margin: 0px;
+	border: 3px solid #FA8072;
+	background: #FA8072;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+    margin-right: 1em;
+	font-family : 'Kulminoituva';
+    font-size : 30px ;
+     padding: 12px ;	
+}
+ 
+li a {
+    color: #544738;
+    text-decoration: none;
+    float: left;
+  }
+ 
+li a:hover {
+	color: #7eb9be;
+    -webkit-transform: rotate(-10deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+
+.left a:hover {
+    /*Transition*/
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+     
+    /*Transform*/
+    -webkit-transform: rotate(-10deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+ 
+.right a:hover {
+ 
+    /*Transition*/
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+     
+    /*Transform*/
+    -webkit-transform: rotate(10deg) scale(1.2);
+    -moz-transform: rotate(10deg) scale(1.2);
+    -o-transform: rotate(10deg) scale(1.2);
+}
+
+
+
+
